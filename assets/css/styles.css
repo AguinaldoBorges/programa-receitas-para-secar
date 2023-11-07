@@ -1,0 +1,80 @@
+#header-timer {
+    color: #fff;
+
+}
+
+#header-timer svg {
+    color: #fff;
+    fill: #fff;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.05);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.btn {
+    color: #fff;
+    background-color: #68D70F;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: pulse 1.5s infinite;
+}
+
+.btn:hover {
+    background-color: #69d70fd0;
+    animation: none;
+    /* Pare a animação quando o botão for hover */
+}
+
+
+
+#btn-inferior {
+    width: 100%;
+    height: 60px;
+    font-size: x-large;
+}
+
+#time {
+    font-size: 46px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+#header-barra-superior {
+    background-color: #3b5337da;
+    position: fixed;
+    min-height: 80px;
+    width: 100%;
+
+}
+
+
+
+#header-banner-img {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
